@@ -9,15 +9,26 @@
  */
 
 {
+    "info/icon-text": {
+        "name": "info/icon-text",
+        "scope": "teambit.design",
+        "version": "0.0.16",
+        "mainFile": "index.ts",
+        "rootDir": "design/info/icon-text"
+    },
     "login": {
         "name": "login",
         "scope": "",
-        "version": "b6c5a640eb18aac97d40bb059a4a2a72f71c7e80",
+        "version": "",
         "defaultScope": "my-scope",
         "mainFile": "index.ts",
         "rootDir": "my-scope/login",
-        "onLanesOnly": true,
-        "isAvailableOnCurrentLane": true
+        "config": {
+            "bitdev.react/react-env@2.1.11": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
     },
     "$schema-version": "17.0.0",
     "_bit_lane": {

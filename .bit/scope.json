@@ -4,7 +4,15 @@
     "version": "1.0.741",
     "lanes": {
         "current": "main",
-        "tracking": [],
-        "new": []
+        "tracking": [
+            {
+                "localLane": "my-changes",
+                "remoteLane": "my-changes",
+                "remoteScope": "my-scope"
+            }
+        ],
+        "new": [
+            "my-changes"
+        ]
     }
 }

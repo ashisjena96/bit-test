@@ -1055,7 +1055,23 @@
       },
       "isSymlink": false,
       "hash": "8d5c14b44ee94e8e06d49f06e97d7848371ec369"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "login"
+      },
+      "isSymlink": false,
+      "hash": "8fa4d526edcb44bbbcd3f0ae2f350bfbc2d95ee9"
     }
   ],
-  "lanes": []
+  "lanes": [
+    {
+      "id": {
+        "name": "my-changes",
+        "scope": "my-scope"
+      },
+      "hash": "37861df8c36d662b1bf3eb175e1951c2f18ec68c"
+    }
+  ]
 }
