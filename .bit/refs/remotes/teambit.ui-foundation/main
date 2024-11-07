@@ -1,0 +1,16 @@
+[
+  {
+    "id": {
+      "scope": "teambit.ui-foundation",
+      "name": "ui/navigation/react-router-adapter"
+    },
+    "head": "ad04cd34d8813b75f8f9c2a50055cbd05cd15cd4"
+  },
+  {
+    "id": {
+      "scope": "teambit.ui-foundation",
+      "name": "ui/constants/z-indexes"
+    },
+    "head": "8a20d47d481d0c25185a26ff6420f8019acd3ef0"
+  }
+]

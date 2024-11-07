@@ -9,6 +9,13 @@
  */
 
 {
+    "info/icon-text": {
+        "name": "info/icon-text",
+        "scope": "teambit.design",
+        "version": "0.0.16",
+        "mainFile": "index.ts",
+        "rootDir": "design/info/icon-text"
+    },
     "login": {
         "name": "login",
         "scope": "",

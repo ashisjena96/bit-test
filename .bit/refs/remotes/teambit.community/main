@@ -1,0 +1,9 @@
+[
+  {
+    "id": {
+      "scope": "teambit.community",
+      "name": "envs/community-react"
+    },
+    "head": "8a3b140f62f5a5e8c14cd9b92aceb6fd8058cc70"
+  }
+]
