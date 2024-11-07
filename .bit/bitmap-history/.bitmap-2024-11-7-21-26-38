@@ -9,19 +9,5 @@
  */
 
 {
-    "login": {
-        "name": "login",
-        "scope": "",
-        "version": "",
-        "defaultScope": "my-scope",
-        "mainFile": "index.ts",
-        "rootDir": "my-scope/login",
-        "config": {
-            "bitdev.react/react-env@2.1.11": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
-    },
     "$schema-version": "17.0.0"
 }
