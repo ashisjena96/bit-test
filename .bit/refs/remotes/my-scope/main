@@ -1,0 +1,16 @@
+[
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "login3"
+    },
+    "head": "c38216ce0fc4adbba158a1d379b8776061cb74c4"
+  },
+  {
+    "id": {
+      "scope": "my-scope",
+      "name": "login4"
+    },
+    "head": "0010bfc7fdabe385996ca74df94a2f272a13b2b9"
+  }
+]

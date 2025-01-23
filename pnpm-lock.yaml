@@ -115,7 +115,7 @@ importers:
         specifier: 2.1.11
         version: 2.1.11(@babel/core@7.26.0)(@babel/traverse@7.25.9)(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(terser@5.36.0)(type-fest@0.21.3)
 
-  my-scope/login:
+  my-scope/login3:
     dependencies:
       '@apollo/client':
         specifier: ^3.8.8
@@ -224,7 +224,7 @@ importers:
         specifier: 2.1.11
         version: 2.1.11(@babel/core@7.12.9)(@babel/traverse@7.25.9)(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(terser@5.36.0)(type-fest@0.21.3)
 
-  my-scope/login1:
+  my-scope/login4:
     dependencies:
       '@apollo/client':
         specifier: ^3.8.8
@@ -347,12 +347,12 @@ importers:
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.3.1)
-      '@my-scope/login':
+      '@my-scope/login3':
         specifier: workspace:*
-        version: file:my-scope/login(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)
-      '@my-scope/login1':
+        version: file:my-scope/login3(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)
+      '@my-scope/login4':
         specifier: workspace:*
-        version: file:my-scope/login1(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)
+        version: file:my-scope/login4(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.3.0)(react@18.3.1)
@@ -447,9 +447,9 @@ importers:
         specifier: ^5.88.2
         version: 5.96.1(esbuild@0.14.29)
     dependenciesMeta:
-      '@my-scope/login':
+      '@my-scope/login3':
         injected: true
-      '@my-scope/login1':
+      '@my-scope/login4':
         injected: true
 
 packages:
@@ -1617,14 +1617,14 @@ packages:
   '@mdx-js/util@1.6.22':
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
 
-  '@my-scope/login1@file:my-scope/login1':
-    resolution: {directory: my-scope/login1, type: directory}
+  '@my-scope/login3@file:my-scope/login3':
+    resolution: {directory: my-scope/login3, type: directory}
     peerDependencies:
       '@testing-library/react': ^16.0.0
       react: ^17.0.0 || ^18.0.0
 
-  '@my-scope/login@file:my-scope/login':
-    resolution: {directory: my-scope/login, type: directory}
+  '@my-scope/login4@file:my-scope/login4':
+    resolution: {directory: my-scope/login4, type: directory}
     peerDependencies:
       '@testing-library/react': ^16.0.0
       react: ^17.0.0 || ^18.0.0
@@ -8373,7 +8373,7 @@ snapshots:
       '@babel/parser': 7.26.2
       '@babel/template': 7.25.9
       '@babel/traverse': 7.25.9
-      '@babel/types': 7.22.3
+      '@babel/types': 7.26.0
       convert-source-map: 1.9.0
       debug: 4.3.7
       gensync: 1.0.0-beta.2
@@ -8748,7 +8748,7 @@ snapshots:
   '@babel/plugin-proposal-object-rest-spread@7.11.0(@babel/core@7.11.6)':
     dependencies:
       '@babel/core': 7.11.6
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.25.9
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.11.6)
       '@babel/plugin-transform-parameters': 7.25.9(@babel/core@7.11.6)
 
@@ -10831,7 +10831,7 @@ snapshots:
 
   '@mdx-js/util@1.6.22': {}
 
-  '@my-scope/login1@file:my-scope/login1(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)':
+  '@my-scope/login3@file:my-scope/login3(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)':
     dependencies:
       '@apollo/client': 3.11.8(@types/react@18.3.0)(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mdx-js/mdx': 1.6.22
@@ -10894,7 +10894,7 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@my-scope/login@file:my-scope/login(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)':
+  '@my-scope/login4@file:my-scope/login4(@testing-library/react@16.0.1(@testing-library/dom@10.4.0)(@types/react-dom@18.3.1)(@types/react@18.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(jest@29.3.1(@types/node@20.12.10))(less@4.2.0)(lightningcss@1.28.1)(react@18.3.1)(terser@5.36.0)(typescript@5.6.3)':
     dependencies:
       '@apollo/client': 3.11.8(@types/react@18.3.0)(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mdx-js/mdx': 1.6.22
@@ -11203,8 +11203,8 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-constant-elements': 7.25.9(@babel/core@7.26.0)
-      '@babel/preset-env': 7.22.15(@babel/core@7.26.0)
-      '@babel/preset-react': 7.22.15(@babel/core@7.26.0)
+      '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
+      '@babel/preset-react': 7.25.9(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
       '@svgr/core': 8.1.0(typescript@5.6.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.6.3))
@@ -11304,14 +11304,14 @@ snapshots:
 
   '@teambit/base-ui.elements.dots-loader@1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/base-ui.elements.icon@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11319,14 +11319,14 @@ snapshots:
   '@teambit/base-ui.input.button@1.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.elements.dots-loader': 1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/base-ui.input.error@1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11340,7 +11340,7 @@ snapshots:
   '@teambit/base-ui.layout.grid-component@1.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.layout.breakpoints': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11375,7 +11375,7 @@ snapshots:
       '@teambit/base-ui.css-components.elevation': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.css-components.roundness': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.surfaces.background': 1.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11383,7 +11383,7 @@ snapshots:
   '@teambit/base-ui.surfaces.split-pane.hover-splitter@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.surfaces.split-pane.splitter': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11397,7 +11397,7 @@ snapshots:
   '@teambit/base-ui.surfaces.split-pane.pane@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.surfaces.split-pane.layout': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11407,14 +11407,14 @@ snapshots:
       '@teambit/base-ui.surfaces.split-pane.layout': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.surfaces.split-pane.pane': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.surfaces.split-pane.splitter': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/base-ui.surfaces.split-pane.splitter@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11429,7 +11429,7 @@ snapshots:
     dependencies:
       '@teambit/base-ui.text.text-sizes': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.theme.sizes': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11442,7 +11442,7 @@ snapshots:
 
   '@teambit/base-ui.text.themed-text@1.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11689,7 +11689,7 @@ snapshots:
     dependencies:
       '@teambit/base-ui.elements.icon': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.input.button': 1.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11727,7 +11727,7 @@ snapshots:
   '@teambit/documenter.markdown.heading@0.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/documenter.ui.linked-heading': 4.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11772,7 +11772,7 @@ snapshots:
 
   '@teambit/documenter.routing.external-link@4.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11780,7 +11780,7 @@ snapshots:
   '@teambit/documenter.ui.anchor@4.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/evangelist.elements.icon': 1.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11788,21 +11788,21 @@ snapshots:
   '@teambit/documenter.ui.anchor@4.0.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/evangelist.elements.icon': 1.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.block-quote@4.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.bold@4.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11810,7 +11810,7 @@ snapshots:
   '@teambit/documenter.ui.code-snippet@4.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/documenter.ui.copied-message': 4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       copy-to-clipboard: 3.3.3
       core-js: 3.39.0
       react: 18.3.1
@@ -11819,7 +11819,7 @@ snapshots:
 
   '@teambit/documenter.ui.copied-message@4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11827,7 +11827,7 @@ snapshots:
   '@teambit/documenter.ui.heading@4.1.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.text.heading': 1.0.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11835,28 +11835,28 @@ snapshots:
   '@teambit/documenter.ui.heading@4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.text.heading': 1.0.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.image@4.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.inline-code@0.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.italic@4.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11865,7 +11865,7 @@ snapshots:
     dependencies:
       '@teambit/documenter.ui.anchor': 4.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/documenter.ui.heading': 4.1.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11874,14 +11874,14 @@ snapshots:
     dependencies:
       '@teambit/documenter.ui.anchor': 4.0.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/documenter.ui.heading': 4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.ol@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11890,7 +11890,7 @@ snapshots:
     dependencies:
       '@teambit/base-ui.text.paragraph': 1.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/base-ui.theme.sizes': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11909,40 +11909,40 @@ snapshots:
 
   '@teambit/documenter.ui.section@4.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.separator@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.sup@4.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.table-column@4.0.4(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       react: 18.3.1
 
   '@teambit/documenter.ui.table-heading-column@4.0.8(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       react: 18.3.1
 
   '@teambit/documenter.ui.table-heading-row@4.0.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@teambit/base-ui.layout.grid-component': 1.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/documenter.ui.table-heading-column': 4.0.8(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       react: 18.3.1
     transitivePeerDependencies:
       - react-dom
@@ -11959,21 +11959,21 @@ snapshots:
 
   '@teambit/documenter.ui.table.base-table@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.table.td@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   '@teambit/documenter.ui.table.tr@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -11982,14 +11982,14 @@ snapshots:
     dependencies:
       '@teambit/documenter.ui.table-heading-row': 4.0.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@teambit/documenter.ui.table-row': 4.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      classnames: 2.2.6
+      classnames: 2.5.1
       react: 18.3.1
     transitivePeerDependencies:
       - react-dom
 
   '@teambit/documenter.ui.ul@4.1.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      classnames: 2.2.6
+      classnames: 2.5.1
       core-js: 3.39.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -12053,7 +12053,7 @@ snapshots:
   '@teambit/mdx.modules.mdx-loader@1.0.14(@babel/core@7.12.9)(esbuild@0.14.29)':
     dependencies:
       '@babel/preset-env': 7.26.0(@babel/core@7.12.9)
-      '@babel/preset-react': 7.22.15(@babel/core@7.12.9)
+      '@babel/preset-react': 7.25.9(@babel/core@7.12.9)
       '@teambit/mdx.compilers.mdx-transpiler': 1.0.6
       babel-loader: 9.1.2(@babel/core@7.12.9)(webpack@5.84.1(esbuild@0.14.29))
       loader-utils: 2.0.4
@@ -12070,7 +12070,7 @@ snapshots:
   '@teambit/mdx.modules.mdx-loader@1.0.14(@babel/core@7.26.0)(esbuild@0.14.29)':
     dependencies:
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
-      '@babel/preset-react': 7.22.15(@babel/core@7.26.0)
+      '@babel/preset-react': 7.25.9(@babel/core@7.26.0)
       '@teambit/mdx.compilers.mdx-transpiler': 1.0.6
       babel-loader: 9.1.2(@babel/core@7.26.0)(webpack@5.84.1(esbuild@0.14.29))
       loader-utils: 2.0.4
@@ -14135,12 +14135,12 @@ snapshots:
 
   css-loader@6.7.2(webpack@5.96.1):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-modules-extract-imports: 3.1.0(postcss@8.4.19)
-      postcss-modules-local-by-default: 4.0.5(postcss@8.4.19)
-      postcss-modules-scope: 3.2.0(postcss@8.4.19)
-      postcss-modules-values: 4.0.0(postcss@8.4.19)
+      icss-utils: 5.1.0(postcss@8.4.47)
+      postcss: 8.4.47
+      postcss-modules-extract-imports: 3.1.0(postcss@8.4.47)
+      postcss-modules-local-by-default: 4.0.5(postcss@8.4.47)
+      postcss-modules-scope: 3.2.0(postcss@8.4.47)
+      postcss-modules-values: 4.0.0(postcss@8.4.47)
       postcss-value-parser: 4.2.0
       semver: 7.6.3
       webpack: 5.96.1(esbuild@0.14.29)
@@ -15653,10 +15653,6 @@ snapshots:
   iconv-lite@0.6.3:
     dependencies:
       safer-buffer: 2.1.2
-
-  icss-utils@5.1.0(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
 
   icss-utils@5.1.0(postcss@8.4.47):
     dependencies:
@@ -17251,20 +17247,9 @@ snapshots:
       postcss: 8.4.47
       postcss-selector-parser: 6.1.2
 
-  postcss-modules-extract-imports@3.1.0(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
-
   postcss-modules-extract-imports@3.1.0(postcss@8.4.47):
     dependencies:
       postcss: 8.4.47
-
-  postcss-modules-local-by-default@4.0.5(postcss@8.4.19):
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
-      postcss-selector-parser: 6.1.2
-      postcss-value-parser: 4.2.0
 
   postcss-modules-local-by-default@4.0.5(postcss@8.4.47):
     dependencies:
@@ -17273,20 +17258,10 @@ snapshots:
       postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
 
-  postcss-modules-scope@3.2.0(postcss@8.4.19):
-    dependencies:
-      postcss: 8.4.19
-      postcss-selector-parser: 6.1.2
-
   postcss-modules-scope@3.2.0(postcss@8.4.47):
     dependencies:
       postcss: 8.4.47
       postcss-selector-parser: 6.1.2
-
-  postcss-modules-values@4.0.0(postcss@8.4.19):
-    dependencies:
-      icss-utils: 5.1.0(postcss@8.4.19)
-      postcss: 8.4.19
 
   postcss-modules-values@4.0.0(postcss@8.4.47):
     dependencies:
@@ -17946,7 +17921,7 @@ snapshots:
       adjust-sourcemap-loader: 4.0.0
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
-      postcss: 8.4.19
+      postcss: 8.4.47
       source-map: 0.6.1
 
   resolve.exports@2.0.2: {}
@@ -18684,7 +18659,7 @@ snapshots:
       extend: 3.0.2
       is-plain-obj: 2.1.0
       trough: 1.0.5
-      vfile: 4.2.0
+      vfile: 4.2.1
 
   unified@9.2.0:
     dependencies:

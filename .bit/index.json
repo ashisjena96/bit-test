@@ -1079,6 +1079,14 @@
       },
       "isSymlink": false,
       "hash": "a54c1d9bf62b9e51ae18b44e423128f47bb3b957"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "login4"
+      },
+      "isSymlink": false,
+      "hash": "e44d154cc45891a824c8e0c5e105e89bdfea15d7"
     }
   ],
   "lanes": [
