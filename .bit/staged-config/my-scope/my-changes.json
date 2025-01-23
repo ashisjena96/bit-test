@@ -2,8 +2,8 @@
   {
     "id": {
       "scope": "my-scope",
-      "name": "login",
-      "version": "b6c5a640eb18aac97d40bb059a4a2a72f71c7e80"
+      "name": "login3",
+      "version": "c133b2b4fce6ea644ce3f2f80ecb83f7b97fe526"
     },
     "config": {
       "bitdev.react/react-env@2.1.11": {

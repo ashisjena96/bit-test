@@ -1,6 +1,8 @@
 {
     "name": "bit-test-local-34fd0d44",
-    "remotes": {},
+    "remotes": {
+        "my-scope": "http://localhost:4000"
+    },
     "version": "1.0.741",
     "lanes": {
         "current": "main",
@@ -11,8 +13,6 @@
                 "remoteScope": "my-scope"
             }
         ],
-        "new": [
-            "my-changes"
-        ]
+        "new": []
     }
 }

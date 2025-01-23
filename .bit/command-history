@@ -18,3 +18,72 @@
 2024-11-07T16:15:47.240Z 3903 show, started
 2024-11-07T16:16:10.869Z 3953 show login, started
 2024-11-07T16:16:14.768Z 3953 show login, succeeded
+2024-11-07T16:27:49.293Z 4696 init --bare, started
+2024-11-07T16:27:49.504Z 4696 init --bare, succeeded
+2024-11-07T16:28:13.623Z 4755 remote add http://localhost:3001, started
+2024-11-07T16:28:14.032Z 4755 remote add http://localhost:3001, failed
+2024-11-07T16:31:10.097Z 4891 start, started
+2024-11-07T16:31:11.093Z 4891 start, failed
+2024-11-07T16:31:35.697Z 4962 create react login, started
+2024-11-07T16:31:36.709Z 4962 create react login, failed
+2024-11-07T16:32:47.041Z 5058 create react login, started
+2024-11-07T16:32:52.406Z 5058 create react login, failed
+2024-11-07T16:33:17.526Z 5190 create react login1, started
+2024-11-07T16:33:24.232Z 5190 create react login1, failed
+2024-11-07T16:34:05.535Z 5275 checkout reset login, started
+2024-11-07T16:34:21.222Z 5275 checkout reset login, succeeded
+2024-11-07T16:34:41.965Z 5361 list, started
+2024-11-07T16:34:42.366Z 5361 list, succeeded
+2024-11-07T16:35:04.152Z 5411 start, started
+2024-11-07T16:36:47.895Z 5598 install, started
+2024-11-07T16:38:26.873Z 5598 install, succeeded
+2024-11-07T16:40:23.085Z 5900 remote add http://localhost:3001, started
+2024-11-07T16:40:23.465Z 5900 remote add http://localhost:3001, failed
+2024-11-07T16:40:29.675Z 5937 remote add http://localhost:3000, started
+2024-11-07T16:40:30.017Z 5937 remote add http://localhost:3000, succeeded
+2024-11-07T16:41:13.982Z 6034 export, started
+2024-11-07T16:41:28.445Z 6034 export, failed
+2024-11-07T16:54:57.069Z 6668 remote -v, started
+2024-11-07T17:12:52.085Z 8409 remote add http://localhost:4000, started
+2024-11-07T17:12:53.317Z 8409 remote add http://localhost:4000, succeeded
+2024-11-07T17:13:32.251Z 8492 list, started
+2024-11-07T17:13:32.823Z 8492 list, succeeded
+2024-11-07T17:13:56.189Z 8548 export, started
+2024-11-07T17:14:06.932Z 8548 export, failed
+2024-11-07T17:14:39.457Z 8616 export, started
+2024-11-07T17:14:56.570Z 8616 export, succeeded
+2024-11-07T17:15:58.356Z 8952 list, started
+2024-11-07T17:15:58.694Z 8952 list, succeeded
+2024-11-07T17:19:27.906Z 9134 snap --message ok, started
+2024-11-07T17:19:52.400Z 9134 snap --message ok, succeeded
+2024-11-07T17:20:05.333Z 9258 export, started
+2024-11-07T17:20:20.704Z 9258 export, succeeded
+2024-11-07T17:21:15.632Z 9366 status, started
+2024-11-07T17:21:19.240Z 9366 status, succeeded
+2024-11-07T17:22:05.954Z 9464 tag, started
+2024-11-07T17:22:08.988Z 9464 tag, succeeded
+2024-11-07T17:22:11.771Z 9500 export, started
+2024-11-07T17:22:12.383Z 9500 export, succeeded
+2024-11-07T17:24:33.422Z 9644 create react login3, started
+2024-11-07T17:24:38.455Z 9644 create react login3, succeeded
+2024-11-07T17:28:40.134Z 9851 start, started
+2024-11-07T17:35:04.218Z 10302 tag, started
+2024-11-07T17:35:28.947Z 10302 tag, failed
+2024-11-07T17:35:41.917Z 10392 snap --message ok, started
+2024-11-07T17:35:45.980Z 10392 snap --message ok, succeeded
+2024-11-07T17:36:38.875Z 10471 tag, started
+2024-11-07T17:36:42.867Z 10471 tag, succeeded
+2024-11-07T17:36:45.099Z 10503 export, started
+2024-11-07T17:36:59.182Z 10503 export, failed
+2024-11-07T17:38:07.731Z 10609 tag, started
+2024-11-07T17:38:11.827Z 10609 tag, succeeded
+2024-11-07T17:38:14.985Z 10641 export, started
+2024-11-07T17:38:27.530Z 10641 export, failed
+2024-11-07T17:39:11.387Z 10726 status, started
+2024-11-07T17:39:15.267Z 10726 status, succeeded
+2024-11-07T17:39:56.467Z 10817 export, started
+2024-11-07T17:40:10.043Z 10817 export, failed
+2024-11-07T17:41:06.967Z 10893 status --lanes, started
+2024-11-07T17:41:10.493Z 10893 status --lanes, failed
+2024-11-07T17:41:16.951Z 10945 status --lanes, started
+2024-11-07T17:41:20.006Z 10945 status --lanes, failed

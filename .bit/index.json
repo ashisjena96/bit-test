@@ -1063,6 +1063,22 @@
       },
       "isSymlink": false,
       "hash": "8fa4d526edcb44bbbcd3f0ae2f350bfbc2d95ee9"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "login1"
+      },
+      "isSymlink": false,
+      "hash": "0e262f225f7005fcaecdd37181d5bc8e50882b64"
+    },
+    {
+      "id": {
+        "scope": "my-scope",
+        "name": "login3"
+      },
+      "isSymlink": false,
+      "hash": "a54c1d9bf62b9e51ae18b44e423128f47bb3b957"
     }
   ],
   "lanes": [
